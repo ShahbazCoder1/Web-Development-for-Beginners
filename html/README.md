@@ -73,7 +73,7 @@
 - \<ol\> stands for **ordered list**
 
 8. Tables: To show any data in the tabular format.
-Example:
+   Example:
 
 ```html
 <table>
@@ -94,29 +94,47 @@ Example:
   </tr>
 </table>
 ```
+
 - \<tr\> stands for the **table row**
 - \<th\> stands for the **table head**
 - \<td\> stands for the **table data**
 
 9. a - Thsi is a hyperlink tag, we can give url, email address, etc..
-Example: 
+   Example:
+
 ```html
 <a href="https://google.com" target="_blank">Search here!</a>
 ```
 
 - herf: is the place you put the links.
 - target: is the place you define the link should open in the same tab or new tab.
-    - _self - Default. Opens the document in the same window/tab as it was clicked
-    - _blank - Opens the document in a new window or tab
-    - _parent - Opens the document in the parent frame
-    - _top - Opens the document in the full body of the window
-- email: ``` <a href="mailto:someone@example.com">Send email</a> ```
+  - \_self - Default. Opens the document in the same window/tab as it was clicked
+  - \_blank - Opens the document in a new window or tab
+  - \_parent - Opens the document in the parent frame
+  - \_top - Opens the document in the full body of the window
+- email: `<a href="mailto:someone@example.com">Send email</a>`
 
 10. img - this tag is used for showing the images.
-Example:
+    Example:
+
 ```html
-<img src="./Shahbaz.png" width="100px" alt="This is Shahbaz Photo"/>
+<img src="./Shahbaz.png" width="100px" alt="This is Shahbaz Photo" />
 ```
+
 - src: is used for givimng the image path. the path can be local dir location or web link.
 - alt: is used in seo for describing the image.
 - width & height: these are the predefined attributes for img tag.
+
+11. input - this the tags usered for making a input feild
+    Example:
+
+```html
+<input type="text" placeholder="Your email address here" />
+```
+
+12. button - this is a simple button.
+    Example:
+
+```html
+<button>Submit</button>
+```
