@@ -121,7 +121,7 @@
 <img src="./Shahbaz.png" width="100px" alt="This is Shahbaz Photo" />
 ```
 
-- src: is used for givimng the image path. the path can be local dir location or web link.
+- src: is used for giving the image path. the path can be local dir location or web link.
 - alt: is used in seo for describing the image.
 - width & height: these are the predefined attributes for img tag.
 
@@ -137,4 +137,21 @@
 
 ```html
 <button>Submit</button>
+```
+
+13. video - This tag is used for showing the video.
+    Example:
+
+```html
+<video controls src="./movie.mp4"></video>
+```
+
+Another Example:
+
+```html
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4" />
+  <source src="movie.ogg" type="video/ogg" />
+  Your browser does not support the video tag.
+</video>
 ```
